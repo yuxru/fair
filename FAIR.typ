@@ -25,16 +25,16 @@
 
 // content
 #align(center)[
-  #text(size: 17pt, weight: "bold")[FAIR Workflow]
+  #text(size: 17pt, weight: "bold")[FAIR Workflow Demonstration - Potts Lattice Example]
   #v(1.2em)
   #text(size: 11pt)[Preston Stover] \
   #text(size: 10pt)[BERN02] \
-  #text(size: 10pt)[October 2026]
+  #text(size: 10pt)[September 2026]
 ]
 #v(2em)
 
 = Introduction
-This report focuses on the FAIR principles in a workflow. A Jupyter notebook and Typst document are used.
+This report is an example of implementing images, citations, and equations in a single document. It is intended to contribute to the demonstration of FAIR principles in a workflow. A Jupyter notebook, bib file, results images, and a Typst document are used.
 
 = Methodology
 The total energy $E(s)$ of a full lattice configuration $s = {s_1, dots, s_N}$, is given by summing over all nearest-neighbor pairs $chevron.l i, j chevron.r$, where each site $i$ holds a spin state $s_i in {1, dots, q}$. Kronecker delta $delta$ is equal to 1 for same state pairs and 0 for different state pairs. In our model the coupling parameter is set to $J = 1$ and the square lattice has total pair interactions $2N$ which results in the range of possible lattice energies $E$:
